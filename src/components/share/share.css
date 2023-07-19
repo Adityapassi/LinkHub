@@ -1,0 +1,66 @@
+.share {
+  width: 100%;
+  /* height: 200px; */
+  border-radius: 10px;
+  box-shadow: -2px 1px 25px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 1px 25px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 1px 25px -7px rgba(0, 0, 0, 0.75);
+}
+
+.share-wrapper {
+  padding: 20px;
+}
+
+.share-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.share-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.share-input {
+  width: 80%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.share-bottom {
+  display: flex;
+  align-items: center;
+  margin: 20px 10px 0 0;
+  justify-content: space-between;
+}
+
+.share-options {
+  display: flex;
+  align-items: center;
+}
+
+.share-option {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.share-icon {
+  margin-right: 5px;
+}
+
+.share-btn {
+  background-color: var(--main-color);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}

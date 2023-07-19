@@ -1,0 +1,84 @@
+.right-sidebar {
+  flex: 3.5;
+}
+
+.right-sidebar-wapper {
+  padding: 20px 20px 0 0;
+}
+
+/* Home Right Sidebar */
+
+.birthday-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.birthday-img {
+  height: 40px;
+  width: 40px;
+}
+
+.birthday-text {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.rigth-sidebar-ad {
+  margin-block: 20px;
+}
+
+.ad-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.rigth-bar-title {
+  margin-bottom: 10px;
+}
+
+/* Profile Right Sidebar */
+.rightbar-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  margin-bottom: 30px;
+}
+
+.user-info-item {
+  margin-bottom: 10px;
+}
+
+.user-info-key {
+  color: #555;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.user-info-value {
+  font-weight: 400;
+}
+
+.mutual-friends {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.mutual-friend {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.mutual__friend-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}

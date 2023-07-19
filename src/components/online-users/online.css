@@ -1,0 +1,25 @@
+.friend {
+  display: flex;
+  align-items: center;
+}
+
+.friend-container {
+  margin: 10px;
+  position: relative;
+}
+
+.show-online {
+  background: limegreen;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  position: absolute;
+  top: -2px;
+  right: 0px;
+  border: 1.5px solid #fff;
+}
+
+.friend-name {
+  font-weight: 500;
+  cursor: pointer;
+}

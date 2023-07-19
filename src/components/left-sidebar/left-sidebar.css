@@ -1,0 +1,56 @@
+.left-sidebar {
+  flex: 2.5;
+  height: calc(100vh - 55px);
+  overflow-y: scroll;
+  flex-shrink: 0;
+  position: sticky;
+  top: 55px;
+}
+
+.left-sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.left-sidebar::-webkit-scrollbar-thumb {
+  background: #c7c6c6;
+}
+
+.left-sidebar::-webkit-scrollbar-track {
+  background: #e8e7e7;
+}
+
+ul {
+  list-style: none;
+}
+
+.sidebar-wapper {
+  padding: 20px 30px;
+}
+
+.sidebar-links {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.sidebar-icons {
+  margin-right: 15px;
+}
+
+.sidebar-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 40px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.divider {
+  margin: 10px 0;
+}
