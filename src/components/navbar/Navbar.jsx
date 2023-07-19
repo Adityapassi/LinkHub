@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./navbar.css";
+import "./Navbar.css";
 import { Chat, Person, Search, Notifications } from "@mui/icons-material";
 
 const Navbar = ({ searchTerm, onSearch }) => {
